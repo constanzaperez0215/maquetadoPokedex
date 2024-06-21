@@ -31,9 +31,14 @@ body{
     border: 2px solid black;
     border-radius: 9px;
     background-image: url(https://w0.peakpx.com/wallpaper/75/47/HD-wallpaper-pokedex-red-pokemon.jpg);
+    background-size: cover;
     opacity: 0.9;
     margin: 10px;
+    transition: transform 0.3s ease-in-out;
     filter: drop-shadow(15px 5px 5px black)
+}
+.contenedorPokemon:hover{
+    transform: scale(1.05);
 }
 
 .nombre{
@@ -42,6 +47,8 @@ body{
     font-weight: 600;
     font-style: normal;
     font-size: 30px;
+    margin-top: 20px;
+    margin-left: 30px;
     filter: drop-shadow(10px 5px 5px rgba(0, 0, 0, 0.911))
 }
 
@@ -89,7 +96,11 @@ body{
     font-weight: 500;
     font-style: normal;
     padding-top: 3px;
+    transition: transform 0.3s ease-in-out;
     filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.678))
+}
+.tipo:hover{
+    transform: scale(1.05);
 }
 
 .debilidad{
