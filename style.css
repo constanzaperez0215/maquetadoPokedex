@@ -42,14 +42,15 @@ body{
 }
 
 .nombre{
-    text-align: center;
+    text-align: end;
+    color: white;
     font-family: "Chakra Petch", sans-serif;
     font-weight: 600;
     font-style: normal;
     font-size: 30px;
-    margin-top: 20px;
-    margin-left: 30px;
-    filter: drop-shadow(10px 5px 5px rgba(0, 0, 0, 0.911))
+    margin-top: 23px;
+    margin-right: 30px;
+    filter: drop-shadow(1px 3px 1px rgba(0, 0, 0, 0.911))
 }
 
 .img{
@@ -147,4 +148,10 @@ body{
 }
 .hada{
     background-color: pink;
+}
+.normal{
+    background-color: rgb(194, 193, 193);
+}
+.lucha{
+    background-color: orange;
 }
